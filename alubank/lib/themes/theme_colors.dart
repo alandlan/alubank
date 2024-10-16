@@ -12,4 +12,5 @@ class ThemeColors {
     'income': Color.fromRGBO(191, 69, 198, 1),
   };
   static const division = Color.fromRGBO(166, 166, 166, 1);
+  static const cardColor = Color.fromRGBO(54, 53, 53, 1);
 }

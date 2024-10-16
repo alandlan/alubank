@@ -4,8 +4,11 @@ import 'package:flutter/material.dart';
 ThemeData MyTheme = ThemeData(
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,
+  primaryColorDark: ThemeColors.primaryColor,
+  primaryColorLight: ThemeColors.primaryColor,
+  cardColor: ThemeColors.cardColor,
   brightness: Brightness.dark,
-  textTheme: TextTheme(
+  textTheme: const TextTheme(
     bodyMedium: TextStyle(fontSize: 16),
     bodyLarge: TextStyle(fontSize: 28,fontWeight: FontWeight.bold),
   )
