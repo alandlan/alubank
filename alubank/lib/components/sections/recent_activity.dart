@@ -17,7 +17,7 @@ class RecentActivity extends StatelessWidget {
 }
 
 class _RecentActivityContent extends StatelessWidget {
-  const _RecentActivityContent({super.key});
+  const _RecentActivityContent();
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class _RecentActivityContent extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Saida'),
+                    const Text('Saida'),
                     Text('\$ 100,00', style: Theme.of(context).textTheme.bodyLarge),
                   ],
                 )
@@ -50,7 +50,7 @@ class _RecentActivityContent extends StatelessWidget {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  Text('Entrada'),
+                  const Text('Entrada'),
                   Text('\$ 200,00', style: Theme.of(context).textTheme.bodyLarge),
                 ],
               )
@@ -66,15 +66,15 @@ class _RecentActivityContent extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(8),
           ),
-          child: LinearProgressIndicator(
+          child: const LinearProgressIndicator(
             value: 0.5,
             minHeight: 8),
         ),
-        Padding(padding: EdgeInsets.only(top: 8, bottom: 8),
+        const Padding(padding: EdgeInsets.only(top: 8, bottom: 8),
           child: ContentDivision()
         ),
         Text('Saldo disponível: \$ 400,00', style: Theme.of(context).textTheme.bodyMedium),
-        TextButton(onPressed: (){}, child: Text('Ver extrato', style: TextStyle(fontSize: 16),))
+        TextButton(onPressed: (){}, child: const Text('Ver extrato', style: TextStyle(fontSize: 16),))
       ],
     );
   }

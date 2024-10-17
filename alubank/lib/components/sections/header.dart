@@ -19,7 +19,7 @@ class Header extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: EdgeInsets.fromLTRB(16, 80, 16, 16),
+        padding: const EdgeInsets.fromLTRB(16, 80, 16, 16),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
