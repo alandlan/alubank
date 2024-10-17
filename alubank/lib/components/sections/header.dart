@@ -19,11 +19,12 @@ class Header extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(16, 80, 16, 16),
+        padding: const EdgeInsets.fromLTRB(16, 60, 16, 16),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 // Text('\$ 1000,00',style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold),),
